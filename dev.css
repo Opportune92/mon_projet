@@ -1,23 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Nobile&display=swap');
+
 .page
 {
     min-width: 728px;
     max-width: 1090px;
     height: 1326px;
     margin:auto;
-    font-family:Ariel vernada sans-serif;
+    font-family: Nobile;
     font-size:1em;
     border:1px solid black;
     
 }
 
-@font-face {
-    font-family: 'nobileregular';
-    src: url('nobile-regular-webfont.woff2') format('woff2'),
-         url('nobile-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 .photo-info
 {
