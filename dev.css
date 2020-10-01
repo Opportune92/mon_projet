@@ -1,10 +1,9 @@
-.page
+body
 {
     width: 1024px;
-    height: 1326px;
-    margin:auto;
+    height: 1150px;
     border:1px solid black;
-    
+    margin:auto;/*pour centrer ma page*/
 }
 
 @font-face 
@@ -15,134 +14,255 @@
     font-weight: normal;
     font-style: normal;
 }
-
-
-.photo-info
+@media screen and (max-width:768px)
 {
-    height: 250px;
-    margin-right: 50px;
-    padding-right: 150px;
-}
-.photo
-{
-    float:left;
-    margin-top: 0px;
-    padding-right: 94px;
-    padding-bottom: 90px;
-    padding-left: 40px;
-    padding-top: 40px;
-    background-color: #f1c40f;
+   body
+   {
+       height: 2488px;
+       border:1px solid black;
+       
+   }
+   .prenom
+   {
+       
+       width: 200px;
+       
+   }
+   .op
+
+   {
+       position: relative;
+       right: 30px;
+   }
+    .sec-gauche
+   {
+     font-size: 2em;
+     height: 2348px;
+   }
+   
+   footer
+   {
+       position: relative;
+       top:870px;
+   }
+   nav
+   {
+       position: relative; 
+       top: 350px;
+       right: 40px;
+   }
+   .exp
+   {
+       position: relative;
+       top:190px;
+       left: 10px;
+       width: 650px;
+       
+   }
+   .sec-droite1
+   {
+       height: none;
+       position: relative;
+       right: 68px;
+      
+   }
+
+   .sec-droite3
+   {
+       position: relative;
+       right: 45px;
+       top: 100px;
+   }
+   .email
+   {
+       word-wrap: break-word;
+   }
+   .sec-milieu
+   {
+       position: relative;
+       top: 300px;
+       font-size: 2em;
+   }
+   .sec-annee1
+   {
     
+        position: relative;
+        top: 70px;
+        right: 35px;
+   }
+   
+
+   .sec-annee3
+   {
+    display: none;
+    
+   }
+   .contac
+   {
+    background-color: black;
+    padding: 40px;
+   }
+   .loisir
+   {
+    background-color: black;
+    padding: 40px;
+    position: relative;
+    bottom:70px;
+   }
+   .com
+   {
+    position: relative;
+    bottom:70px;
+   }
+   
+   .pro
+   {
+    background-color: black;
+    padding-bottom:60px;
+    
+   }
+
+   .form
+   {
+       position: relative;
+       top:30px;
+       right: 10px;
+       width: 650px;
+   }
+   .rec
+   {
+    position: relative;
+    top:30px;
+    right: 10px;
+    width: 650px;
+   }
+   
 }
+
+
 .info
 {
-    float:top;
-    padding-left: 40%;
-    padding-top: 3%;
-    width: 800px;
+    width: 1034px;
+    float: left;
+    margin-left: 50px;
 }
+
 
 .sec-gauche
 {
 
     float: left;
-    width: 240px;
-    margin-bottom: 170px;
-    margin-top: 0px;
-    background: #f1c40f;
-   margin-right: 800px;
-   height: 1073px;
+    width: 248px;
+    background-color:#f1c40f;
+    height: 1150px;
+    
 }
     
 .sec-milieu
 {
     margin-left: 280px;
-    margin-top: 70px;
-
+    margin-top: 50px;
    width: 700px;
-   position: relative;
-   bottom: 1320px;
+   position: absolute;
+   top:0px;
+   bottom: 0px;
 }
-body
-{
-    
-    margin:auto;/*pour centrer ma page*/
-    height: 1000px;
-    background-attachment: fixed;
-}
+
 .imag
 {
-    position: relative;
-    right: 20px;
-    left:25px;
-    bottom: 20px;
-    margin-right: 26px;
-    border-radius: 50%;
+   margin-top: 30px;
+    margin-left: 70px;
+    height: 130px;
+    border-radius: 40px;
+    margin-bottom: 50px;
 }
 
-.sec-droite
+.sec-droite1
 {
-
-    height: 60px;
+    height: 170px;
     float:right;
-    position: relative;
-    bottom:50px;
-    right: 60px;
     margin-left: 200px;
-    padding-bottom: 100px;
+    position: relative;
+    bottom:80px;
 }
-.sec-annee
+
+.sec-droite2
+{
+    height: 70px;
+    float:right;
+    margin-left: 200px;
+    position: relative;
+    bottom:80px;
+}
+
+.sec-droite3
+{
+    height: 120px;
+    float:right;
+    margin-left: 200px;
+    position: relative;
+    bottom:80px;
+}
+
+.sec-annee1
+{
+    padding: 20px;    
+   
+}
+.sec-annee2
 {
     padding: 20px;    
     position: relative;
-    top:130px;
+    top:10px;
 }
+.sec-annee3
+{
+    padding: 20px;    
+    position: relative;
+    top:10px;
+}
+   
 
 .pro
 {
     
-    width: 190px;
-    margin-top: 70px;
     background-color: black;
     color: #f1c40f;
-    height: 25px;
-    padding-top: 6px;
-    padding-left: 50px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    height: 20px;
+    padding-left: 60px;
+    padding-top: 5px;
+    
 }
+
 .contac
 {
-    
     margin-bottom: 35px;
     background-color: black;
     color: #f1c40f;
-    width: 170px;
-    height: 25px;
-    padding-top: 6px;
+    height: 20px;
     padding-left: 70px;
+    padding-top: 5px;
 }
 p
 {
-    padding-left: 4px;
+   margin-left: 4px;
 }
 
 .loisir
 {
-    width: 160px;
-    margin-top: 290px;
-    background-color:black;
-    color: #f1c40f;
-    padding-top: 6px;
-    padding-bottom: 2px;
-    height: 25px;
-    margin-bottom: 20px;
-    padding-left: 80px;
-}
-.sec-annee
-{
     
-    position: relative;
-    top: 2em;
+    background-color:black;
+    color: #f1c40f; 
+    margin-top: 240px;
+    margin-bottom: 20px;
+    height: 20px;
+    padding-left: 90px;
+    padding-top: 5px;
+    
 }
+
 h1
 {
      font-size:3em;
@@ -161,23 +281,35 @@ h1
 .centrer
 {
     margin-left: 2px;
-    margin-bottom: 310px;
     padding-left: 6px;
+    background-color: #f1c40f;
+    color: black ;
+    
 }
+
+.adresse
+{
+    background-color: #f1c40f;
+    color: black ;
+    width: 248px;
+}
+
 .form
 {
     border-bottom: #f1c40f 2px solid;
     color:black;
     font-weight: bold;
-   margin-top: 370px;
+   margin-top: 10px;
+   margin-bottom: 70px;
   
 }
 .exp
 {
+   
     border-bottom: #f1c40f 2px solid;
     font-weight: bold;
     color: black;
-
+    margin-bottom: 100px;
 }
 .rec
 {
@@ -185,7 +317,9 @@ h1
     border-bottom: #f1c40f 2px solid;
     font-weight: bold;
     margin-right: 10px;
+    
 }
+
 .ims
 {
     
@@ -203,8 +337,9 @@ h1
 {
     font-size: 3em;
     color: #f1c40f;
-    margin-top: 20px;
-    padding-top: 30px;
+    margin-top: 40px;
+    margin-top: 30px;
+    
 }
 strong
 {
@@ -218,26 +353,31 @@ strong
 }
 .com
 {
-   margin-left: 10px;
-   
+  
+   background-color: #f1c40f;
+    color: black ;  
 }
 .com1
 {
    border-radius: 30px;
    border: 1px solid black;
-   margin: 2px;
+   margin: 5px;
+  
+
 }
 .com2
 {
     border-radius: 30px;
     border: 1px solid black;
-    margin: 2px;
+    margin: 5px;
+    
 }
 .com3
 {
     border-radius: 30px;
     border: 1px solid black;
-    margin: 2px;
+    margin: 5px;
+    
 }
 .gras
 {
@@ -258,9 +398,11 @@ strong
     font-weight: bold;
     color:black;
     font-size: 1em;
-    margin-bottom: 4px;
+    margin-top: 20px;
+    
 }
 a
 {
     color: black;
 }
+
