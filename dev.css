@@ -4,6 +4,7 @@ body
     height: 1150px;
     border:1px solid black;
     margin:auto;/*pour centrer ma page*/
+    
 }
 
 @font-face 
@@ -14,166 +15,201 @@ body
     font-weight: normal;
     font-style: normal;
 }
-@media screen and (max-width:768px)
+@media screen and (max-width:400px)
 {
    body
    {
-       height: 2488px;
-       border:1px solid black;
+       height: 1150px;
+       margin: auto;
+       width: 400px;
+    flex-wrap: wrap;
+    border:none;
+    
+   }
        
-   }
-   .prenom
-   {
-       
-       width: 200px;
-       
-   }
-   .op
-
-   {
-       position: relative;
-       right: 30px;
-   }
-    .sec-gauche
-   {
-     font-size: 2em;
-     height: 2348px;
-   }
    
-   footer
+   .form
    {
-       position: relative;
-       top:870px;
-   }
-   nav
-   {
-       position: relative; 
-       top: 350px;
-       right: 40px;
-   }
-   .exp
-   {
-       position: relative;
-       top:190px;
-       left: 10px;
-       width: 650px;
-       
-   }
-   .sec-droite1
-   {
-       height: none;
-       position: relative;
-       right: 68px;
-      
-   }
-
-   .sec-droite3
-   {
-       position: relative;
-       right: 45px;
-       top: 100px;
-   }
-   .email
-   {
-       word-wrap: break-word;
-   }
-   .sec-milieu
-   {
-       position: relative;
-       top: 300px;
-       font-size: 2em;
+       padding-left: 70px;
+       width: 310px;
+    position: relative;
+    top: 630px;
+    right: 300px;
    }
    .sec-annee1
    {
-    
-        position: relative;
-        top: 70px;
-        right: 35px;
+    width: 300px;
+    position: relative;
+    top: 560px;
+    right: 310px;
    }
-   
-
+  
+   .sec-droite1
+   {
+    width: 240px;
+    position: relative;
+    top: 470px;
+    right: 680px;
+   }
+   .sec-droite3
+   {
+    width: 290px;
+    position: relative;
+    top: 760px;
+    right: 677px;
+   }
    .sec-annee3
    {
-    display: none;
-    
+     display: none;
    }
+   .mail 
+   {
+    width: 300px;
+    position: relative;
+    top: 940px;
+    right: 280px;
+   }
+    .rec
+    {
+        padding-right: 70px;
+    width: 290px;
+    position: relative;
+    top: 1047px;
+    right: 280px;
+    }
+    .mentor
+    {
+       
+     width: 300px;
+    position: relative;
+    top: 1045px;
+    right: 280px;
+    }
+    
+   .exp
+   {
+    padding-left: 70px;
+    width: 320px;
+    position: relative;
+    top: 880px;
+    right: 300px;
+   }
+   .sec-gauche
+   {
+    display: inline;
+    word-wrap: break-word;
+    
+   } 
+  
+   .prenom
+   {
+       width: 200px;
+    position: relative;
+    bottom: 920px;
+    right: 320px;
+   }
+   .op
+   {
+    position: relative;
+    
+    right: 40px;
+   }
+       
+   .deve
+   {
+     display: none;
+   }  
+   
+
+   .info
+   {
+       display: inline;
+   }
+
    .contac
    {
-    background-color: black;
-    padding: 40px;
+       
+       width: 300px;
+       position: relative;
+       top: 170px;
+   }
+   .adresse
+   {
+       position: relative;
+       top: 155px;
+       left: 10px;
+   }
+   .email
+   {
+    position: relative;
+    top: 155px;
+    left: 10px;
    }
    .loisir
    {
-    background-color: black;
-    padding: 40px;
-    position: relative;
-    bottom:70px;
+       width: 300px;
+       position: relative;
+       top:780px;
+    
    }
    .com
    {
     position: relative;
-    bottom:70px;
+    top:770px;
+    left:40px;
    }
-   
    .pro
    {
-    background-color: black;
-    padding-bottom:60px;
-    
-   }
-
-   .form
-   {
+       width: 310px;
        position: relative;
-       top:30px;
-       right: 10px;
-       width: 650px;
+       top:100px;
    }
-   .rec
+   .centrer
    {
-    position: relative;
-    top:30px;
-    right: 10px;
-    width: 650px;
+       width: 300px;
+       position: relative;
+       top: 110px;
+       left: 10px;
+
    }
-   
 }
 
-
-.info
-{
-    width: 1034px;
-    float: left;
-    margin-left: 50px;
-}
 
 
 .sec-gauche
 {
 
-    float: left;
+    
     width: 248px;
-    background-color:#f1c40f;
+    background-color: #f1c40f;
     height: 1150px;
     
 }
+.info
+{
+    position: relative;
+    bottom: 95%;
+    left: 330px;
+}
+
     
 .sec-milieu
 {
-    margin-left: 280px;
-    margin-top: 50px;
-   width: 700px;
-   position: absolute;
-   top:0px;
-   bottom: 0px;
+    width: 700px;
+    position: relative;
+    bottom: 95%;
+    left: 300px;
 }
+   
+   
+   
 
 .imag
 {
    margin-top: 30px;
     margin-left: 70px;
     height: 130px;
-    border-radius: 40px;
+    border-radius: 50%;
     margin-bottom: 50px;
 }
 
@@ -282,14 +318,14 @@ h1
 {
     margin-left: 2px;
     padding-left: 6px;
-    background-color: #f1c40f;
+    
     color: black ;
     
 }
 
 .adresse
 {
-    background-color: #f1c40f;
+    
     color: black ;
     width: 248px;
 }
@@ -354,7 +390,7 @@ strong
 .com
 {
   
-   background-color: #f1c40f;
+   
     color: black ;  
 }
 .com1
@@ -399,10 +435,8 @@ strong
     color:black;
     font-size: 1em;
     margin-top: 20px;
-    
 }
 a
 {
     color: black;
 }
-
