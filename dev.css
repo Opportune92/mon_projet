@@ -1,7 +1,6 @@
 body
 {
-    width: 1024px;
-    height: 1150px;
+    max-width: 1024px;
     border:1px solid black;
     margin:auto;/*pour centrer ma page*/
     
@@ -15,193 +14,71 @@ body
     font-weight: normal;
     font-style: normal;
 }
-@media screen and (max-width:400px)
-{
-   body
-   {
-       height: 1150px;
-       margin: auto;
-       width: 400px;
-    flex-wrap: wrap;
-    border:none;
-    
-   }
-       
-   
-   .form
-   {
-       padding-left: 70px;
-       width: 310px;
-    position: relative;
-    top: 630px;
-    right: 300px;
-   }
-   .sec-annee1
-   {
-    width: 300px;
-    position: relative;
-    top: 560px;
-    right: 310px;
-   }
-  
-   .sec-droite1
-   {
-    width: 240px;
-    position: relative;
-    top: 470px;
-    right: 680px;
-   }
-   .sec-droite3
-   {
-    width: 290px;
-    position: relative;
-    top: 760px;
-    right: 677px;
-   }
-   .sec-annee3
-   {
-     display: none;
-   }
-   .mail 
-   {
-    width: 300px;
-    position: relative;
-    top: 940px;
-    right: 280px;
-   }
-    .rec
-    {
-        padding-right: 70px;
-    width: 290px;
-    position: relative;
-    top: 1047px;
-    right: 280px;
-    }
-    .mentor
-    {
-       
-     width: 300px;
-    position: relative;
-    top: 1045px;
-    right: 280px;
-    }
-    
-   .exp
-   {
-    padding-left: 70px;
-    width: 320px;
-    position: relative;
-    top: 880px;
-    right: 300px;
-   }
-   .sec-gauche
-   {
-    display: inline;
-    word-wrap: break-word;
-    
-   } 
-  
-   .prenom
-   {
-       width: 200px;
-    position: relative;
-    bottom: 920px;
-    right: 320px;
-   }
-   .op
-   {
-    position: relative;
-    
-    right: 40px;
-   }
-       
-   .deve
-   {
-     display: none;
-   }  
-   
 
-   .info
-   {
-       display: inline;
-   }
-
-   .contac
-   {
-       
-       width: 300px;
-       position: relative;
-       top: 170px;
-   }
-   .adresse
-   {
-       position: relative;
-       top: 155px;
-       left: 10px;
-   }
-   .email
-   {
-    position: relative;
-    top: 155px;
-    left: 10px;
-   }
-   .loisir
-   {
-       width: 300px;
-       position: relative;
-       top:780px;
-    
-   }
-   .com
-   {
-    position: relative;
-    top:770px;
-    left:40px;
-   }
-   .pro
-   {
-       width: 310px;
-       position: relative;
-       top:100px;
-   }
-   .centrer
-   {
-       width: 300px;
-       position: relative;
-       top: 110px;
-       left: 10px;
-
-   }
-}
 
 
 
 .sec-gauche
 {
-
-    
-    width: 248px;
     background-color: #f1c40f;
-    height: 1150px;
-    
 }
 .info
 {
     position: relative;
-    bottom: 95%;
-    left: 330px;
+    display: flex;
 }
-
-    
+.picture {
+    width: 25%;
+    background: #f1c40f; 
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1024px;
+}
+.title {
+    width: 75%;
+}
+header {
+    min-width: 100%;
+    height: 250px;
+}
+aside {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
 .sec-milieu
 {
-    width: 700px;
+    width: 73%;
     position: relative;
-    bottom: 95%;
-    left: 300px;
+    padding: 1%;
 }
    
-   
+.asideTitle {
+    background-color:black;
+    color: #f1c40f; 
+    margin-bottom: 20px;
+    height: 20px;
+    text-align: center;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-top: 5px;
+}
+.margeTop {
+    margin-top: 132px;
+}
+.resumeSection {
+    display: flex;
+}
+.time {
+    min-width: 20%;
+}
+.resumeTitle img{
+    margin-right: 64px;
+}
    
 
 .imag
@@ -217,7 +94,6 @@ body
 {
     height: 170px;
     float:right;
-    margin-left: 200px;
     position: relative;
     bottom:80px;
 }
@@ -226,7 +102,6 @@ body
 {
     height: 70px;
     float:right;
-    margin-left: 200px;
     position: relative;
     bottom:80px;
 }
@@ -235,7 +110,6 @@ body
 {
     height: 120px;
     float:right;
-    margin-left: 200px;
     position: relative;
     bottom:80px;
 }
@@ -301,11 +175,9 @@ p
 
 h1
 {
-     font-size:3em;
+    font-size:2em;
     font-family: Ariel vernada;
     position: relative;
-    right:80px;
-    bottom: 50px;
 }
 .em
 {
@@ -327,16 +199,17 @@ h1
 {
     
     color: black ;
-    width: 248px;
+    padding: 2%;
 }
-
+.email {
+    padding: 2%;
+}
 .form
 {
     border-bottom: #f1c40f 2px solid;
     color:black;
     font-weight: bold;
-   margin-top: 10px;
-   margin-bottom: 70px;
+    margin-top: 10px;
   
 }
 .exp
@@ -345,7 +218,6 @@ h1
     border-bottom: #f1c40f 2px solid;
     font-weight: bold;
     color: black;
-    margin-bottom: 100px;
 }
 .rec
 {
@@ -363,15 +235,13 @@ h1
 }
 .deve
 {
-    font-size: 1em;
+    font-size: 1.5em;
     position: relative;
-    bottom:95px;
-    right: 70px;
     
 }
 .prenom
 {
-    font-size: 3em;
+    font-size: 2.2em;
     color: #f1c40f;
     margin-top: 40px;
     margin-top: 30px;
@@ -385,7 +255,6 @@ strong
 {
     font-weight: bold;
     color: black;
-    margin-left: 30px;
 }
 .com
 {
@@ -439,4 +308,55 @@ strong
 a
 {
     color: black;
+}
+
+
+@media screen and (max-width: 980px)
+{
+  body {
+      flex-direction: column;
+      font-size: 1.1em;
+      overflow-x: hidden;
+  }
+   header {
+       flex-direction: column;
+       height: auto;
+       text-align: center;
+       margin-bottom: 32px;
+       font-size: 1.2em;
+   }
+   header .picture {
+       width: 100%;
+       text-align: center;
+   }
+   .sec-milieu {
+       width: 92%;
+       padding: 4%;
+   }
+   aside {
+       order: 2;
+       width: 100%;
+       text-align: center;
+       font-size: 1.2em;
+   }
+   .resumeSection {
+       flex-direction: column;
+
+      font-size: 1.3em;
+   }
+   .resumeSection .time {
+       width: 100%;
+       text-align: center;
+   }
+   .title {
+       width: 100%;
+       text-align: center;
+   }
+   footer {
+      font-size: 1.3em;
+   }
+   .mail {
+       font-size: 0.8em;
+   }
+
 }
