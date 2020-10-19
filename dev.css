@@ -106,19 +106,7 @@ aside {
     bottom:80px;
 }
 
-.sec-droite3
-{
-    height: 120px;
-    float:right;
-    position: relative;
-    bottom:80px;
-}
 
-.sec-annee1
-{
-    padding: 20px;    
-   
-}
 .sec-annee2
 {
     padding: 20px;    
@@ -146,15 +134,7 @@ aside {
     
 }
 
-.contac
-{
-    margin-bottom: 35px;
-    background-color: black;
-    color: #f1c40f;
-    height: 20px;
-    padding-left: 70px;
-    padding-top: 5px;
-}
+
 p
 {
    margin-left: 4px;
@@ -176,8 +156,7 @@ p
 h1
 {
     font-size:2em;
-    font-family: Ariel vernada;
-    position: relative;
+    
 }
 .em
 {
@@ -212,13 +191,7 @@ h1
     margin-top: 10px;
   
 }
-.exp
-{
-   
-    border-bottom: #f1c40f 2px solid;
-    font-weight: bold;
-    color: black;
-}
+
 .rec
 {
     
@@ -359,4 +332,295 @@ a
        font-size: 0.8em;
    }
 
-}
+   body
+   {
+       max-width: 1024px;
+       border:1px solid black;
+       margin:auto;/*pour centrer ma page*/
+       
+   }
+   
+   @font-face 
+   {
+       font-family: 'allerregular';
+       src: url('aller_rg-webfont.woff2') format('woff2'),
+            url('aller_rg-webfont.woff') format('woff');
+       font-weight: normal;
+       font-style: normal;
+   }
+   
+   
+   
+   
+   .sec-gauche
+   {
+       background-color: #f1c40f;
+   }
+   .info
+   {
+       position: relative;
+       display: flex;
+   }
+   .picture {
+       width: 25%;
+       background: #f1c40f; 
+   }
+   body {
+       display: flex;
+       flex-wrap: wrap;
+       max-width: 1024px;
+   }
+   .title {
+       width: 75%;
+   }
+   header {
+       min-width: 100%;
+       height: 250px;
+   }
+   aside {
+       width: 25%;
+       display: flex;
+       justify-content: space-between;
+   }
+   .sec-milieu
+   {
+       width: 73%;
+       position: relative;
+       padding: 1%;
+   }
+   .exp
+   {
+   
+    border-bottom: #f1c40f 2px solid;
+    font-weight: bold;
+    color: black;
+   }
+      
+   .asideTitle {
+       background-color:black;
+       color: #f1c40f; 
+       margin-bottom: 20px;
+       height: 20px;
+       text-align: center;
+       height: 32px;
+       display: flex;
+       justify-content: center;
+       align-self: center;
+       padding-top: 5px;
+   }
+   .margeTop {
+       margin-top: 132px;
+   }
+   .resumeSection {
+       display: flex;
+   }
+   .time {
+       min-width: 20%;
+   }
+   .resumeTitle img{
+       margin-right: 64px;
+   }
+      
+   
+   .imag
+   {
+      margin-top: 30px;
+       margin-left: 70px;
+       height: 130px;
+       border-radius: 50%;
+       margin-bottom: 50px;
+   }
+   
+   
+   p
+   {
+      margin-left: 4px;
+   }
+   
+   .loisir
+   {
+       
+       background-color:black;
+       color: #f1c40f; 
+       margin-top: 240px;
+       margin-bottom: 20px;
+       height: 20px;
+       padding-left: 90px;
+       padding-top: 5px;
+       
+   }
+   
+   h1
+   {
+       font-size:2em;
+       font-family: Ariel vernada;
+       position: relative;
+   }
+   .em
+   {
+       font-style:normal;
+       font-size: 1em;
+       border-bottom:#f1c40f 2px solid;
+       margin-left: 30px;
+   }
+   .centrer
+   {
+       margin-left: 2px;
+       padding-left: 6px;
+       
+       color: black ;
+       
+   }
+   
+   .adresse
+   {
+       
+       color: black ;
+       padding: 2%;
+   }
+   .email {
+       padding: 2%;
+   }
+   
+   
+   .rec
+   {
+       
+       border-bottom: #f1c40f 2px solid;
+       font-weight: bold;
+       margin-right: 10px;
+       
+   }
+   
+   .ims
+   {
+       
+       margin-right: 50px;
+   }
+   .deve
+   {
+       font-size: 1.5em;
+       position: relative;
+       
+   }
+   .prenom
+   {
+       font-size: 2.2em;
+       color: #f1c40f;
+       margin-top: 40px;
+       margin-top: 30px;
+       
+   }
+   strong
+   {
+       color: #f1c40f;
+   }
+   .op
+   {
+       font-weight: bold;
+       color: black;
+   }
+   .com
+   {
+     
+      
+       color: black ;  
+   }
+   .com1
+   {
+      border-radius: 30px;
+      border: 1px solid black;
+      margin: 5px;
+     
+   
+   }
+   .com2
+   {
+       border-radius: 30px;
+       border: 1px solid black;
+       margin: 5px;
+       
+   }
+   .com3
+   {
+       border-radius: 30px;
+       border: 1px solid black;
+       margin: 5px;
+       
+   }
+   .gras
+   {
+       font-weight: bold;
+       color:black;
+       font-size: 1em;
+       margin-bottom: 4px;
+   }
+   .gras1
+   {
+       font-weight: bold;
+       color:black;
+       font-size: 1em;
+       margin-bottom: 4px;  
+   }
+   .gras2
+   {
+       font-weight: bold;
+       color:black;
+       font-size: 1em;
+       margin-top: 20px;
+   }
+   a
+   {
+       color: black;
+   }
+   
+   
+   @media screen and (max-width: 980px)
+   {
+     body {
+         flex-direction: column;
+         font-size: 1.1em;
+         overflow-x: hidden;
+     }
+      header {
+          flex-direction: column;
+          height: auto;
+          text-align: center;
+          margin-bottom: 32px;
+          font-size: 1.2em;
+      }
+      header .picture {
+          width: 100%;
+          text-align: center;
+      }
+      .sec-milieu {
+          width: 92%;
+          padding: 4%;
+      }
+      aside {
+          order: 2;
+          width: 100%;
+          text-align: center;
+          font-size: 1.2em;
+      }
+      .resumeSection {
+          flex-direction: column;
+   
+         font-size: 1.3em;
+      }
+      .resumeSection .time {
+          width: 100%;
+          text-align: center;
+      }
+      .title {
+          width: 100%;
+          text-align: center;
+      }
+      footer {
+         font-size: 1.3em;
+      }
+      .mail {
+          font-size: 0.8em;
+      }
+   
+   }
